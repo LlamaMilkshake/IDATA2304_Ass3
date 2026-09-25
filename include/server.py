@@ -21,7 +21,7 @@
 
 import socket
 import sys
-from handler import handle_command
+from include.handler import handle_command
 
 
 def create_socket():
