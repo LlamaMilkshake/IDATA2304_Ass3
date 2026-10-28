@@ -59,7 +59,7 @@ def handle_command(cmd:str):
         elif get_power():
             if cmd == channel_up_cmd:
                 return handle_channel_up()
-            elif cmd == channel_up_cmd:
+            elif cmd == channel_down_cmd:
                 return handle_channel_down()
             elif parts[0] == set_channel_cmd_parts[0] and parts[1] == set_channel_cmd_parts[1]:
                 try:
